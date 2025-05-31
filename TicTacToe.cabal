@@ -2,12 +2,12 @@ name:                TicTacToe
 version:             0.1.0.0
 synopsis:            A simple Tic-Tac-Toe game using Gloss
 description:         This program implements a Tic-Tac-Toe game with a graphical user interface using the Gloss library.
-homepage:            https://github.com/yourusername/TicTacToe  -- Replace with your repository
+homepage:            https://github.com/tail-call/TicTacToe
 license:             BSD3
 license-file:        LICENSE
-author:              Your Name
-maintainer:          your.email@example.com
-copyright:           2024 Your Name
+author:              Maria Zatiseva
+maintainer:          maria@tail-call.ru
+copyright:           2025 Maria Zaitseva
 category:            Game
 build-type:          Simple
 cabal-version:       >=1.10
