@@ -228,7 +228,7 @@ handleEvent (EventKey (MouseButton LeftButton) Down _ (mx, my)) gs =
 handleEvent (EventKey (Char 'r') Down _ _) _ = initialState -- Reset game with 'r' key
 handleEvent _ gs = gs -- Ignore other events
 
--- 7. Main Function
+-- # Main Function
 
 main :: IO ()
 main = play
@@ -238,4 +238,4 @@ main = play
     initialState            -- The initial game state
     displayPicture          -- The function to convert game state to a picture
     handleEvent             -- The function to handle input events
-    (\_ -> id)              -- The function to update the game state over time (not used here)
+    (const id)              -- The function to update the game state over time (not used here)
